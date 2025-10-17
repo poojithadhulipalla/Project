@@ -1,0 +1,11 @@
+.class{
+    background-color: rgb(196, 239, 134);
+    
+}
+.img :hover{
+border-radius: 40%;
+box-shadow: 10px solid blue;
+}
+h1{
+    color:rgb(5, 83, 230)
+}
