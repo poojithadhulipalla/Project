@@ -1,12 +1,38 @@
+body{
+    margin: 0px;
+}
+
 .class {
-    background-color: rgb(196, 239, 134);
-    
+   background-color: rgb(173, 245, 245);
 }
 .img :hover{
     transform: scale(1,2);
-    border-radius: 40%;
+    border-radius:20%;
     box-shadow: 10px solid blue;
 }
 h1{
     color:rgb(5, 83, 230)
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(94, 70, 230);
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a{
+    color: rgb(122, 11, 11);
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: rgb(113, 111, 111);
+}
+.navbar li{
+    float: left;
+}
+.navbar{
+    background-color: blue;
 }
